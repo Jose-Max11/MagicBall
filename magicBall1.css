@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff5f7;
+  font-family: "Papyrus";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+.ball-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #c95f7b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation-duration: 0.5s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.ball-container:hover {
+  box-shadow: 0 0 25px #c2185b, 0 0 40px #f06292;
+  transform: scale(1.05);
+}
+
+.ball-container.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.eight {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #d81b60; /* pink answer */
+  min-height: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #888;
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff5f7;
+  font-family: "Papyrus";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+.ball-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #c95f7b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation-duration: 0.5s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.ball-container:hover {
+  box-shadow: 0 0 25px #c2185b, 0 0 40px #f06292;
+  transform: scale(1.05);
+}
+
+.ball-container.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.eight {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #d81b60; /* pink answer */
+  min-height: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #888;
+  font-size: 14px;
+}
